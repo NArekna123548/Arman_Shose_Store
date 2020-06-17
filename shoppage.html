@@ -1,0 +1,787 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <title>Shop page</title>
+</head>
+<body>
+ <section class="sel " > 
+<div class="container ">
+  <div class="row navbar-dark navbar-light  p-2" style="background-color: #007bff;">
+    <div class="col-lg-3 col-6 d-none d-lg-block"><p class="text-justify " style="padding-top:10px;">telephone:096350686</p></div>
+
+    <div class="col-lg-3 col-6 d-none d-lg-block "><p class="text-justify " style="padding-top:10px;">Welcome to our store:)</p></div>
+
+    <div class="col-lg-2 col-6" style="padding-top:10px;margin-right: auto;" >
+     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+       <option selected>AM</option>
+       <option value="1">RU</option>
+       <option value="2">EN</option>
+     </select>
+   </div>
+
+   <div class=" col-lg-2 col-6" style="padding-top:10px;">
+     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+       <option selected>AMD</option>
+       <option value="1">RUB</option>
+       <option value="2">USD</option>
+     </select>
+   </div>
+
+   <div class="col-auto d-none d-lg-block" style="padding-top: 5px;">
+     <button type="button" class="btn btn-warning">
+      <svg class="bi bi-cart-plus" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+
+        <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z"/>
+        <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z"/>
+        <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+      </svg>
+      <span class="badge badge-danger "  style="height: 20px; width: 20px;"><span style="margin-right: 5px;">4</span></span>
+    </button>
+   </div>
+ </div>
+ <!--  div row kapuyt div -->
+ <div class="row navbar-dark  navbar-dark " style="background-color:#ffce00;">
+
+  <nav class="col-auto  navbar navbar-expand-lg " style="margin-right: auto;">
+   <a class="" href="index.html"  ><img class="img-thumbnail img-fluid" alt="Responsive image" src="img/1588322821436.jpg" style="width:auto;height: 50px; border-radius: 15px;"></a>
+ </nav>
+
+ <div class="col-auto d-none d-lg-inline " style="margin-top: 15px;">
+  <form class="form-inline my-2 my-lg-0" >
+   <input class="form-control mr-sm-2" type="search" placeholder="Search">
+   <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+ </form>
+</div>
+
+<div class="col-auto"style="padding-top: 5px; " >
+ <div class="dropdown">
+   <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+     <img src="img/icons8-customer-100.png" style="width: 50px; height: 50px; border-radius: 25px;" >
+   </a>
+
+   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"style="  transition:0.3s;" >
+     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal" >Login</a>
+     <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#exampleModal">Register</a>
+     <a class="dropdown-item" href="#">My Orders</a>
+     <a class="dropdown-item" href="#">Account Settings</a>
+   </div>
+ </div>
+</div>
+
+
+</div> 
+<!-- div kanach row div -->
+<div class="row navbar-dark  d-flex justify-content-lg-between navbar-dark  " style="background-color: #01bf01;" >
+ <nav class="navbar navbar-expand-lg  ">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+     <span class=""><img src="img/menu-alt-512.webp" style="height: 30px"></span>
+   </button>
+        
+   <div class="collapse navbar-collapse   w-100 col-lg-9 col-xl-8"  id="navbarTogglerDemo02">
+     <div class="dropdown     col-lg-3 col-xl-4  w-100 "  >
+        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Կանացի կոշիկ
+       </a>
+       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+         <a class="dropdown-item" href="shoppage.html">Ամառային դասական</a>
+         <a class="dropdown-item" href="shoppage.html">Ամառային սպորտային</a>
+         <a class="dropdown-item" href="shoppage.html">Բարձրակրունկ</a>
+         <a class="dropdown-item" href="shoppage.html">Ցածրակրունկ</a>
+         <a class="dropdown-item" href="shoppage.html">Տանկետկա</a>
+         <a class="dropdown-item" href="shoppage.html">Սպորտային</a>
+         <a class="dropdown-item" href="shoppage.html">Կիսաճտքավոր դասական</a>
+         <a class="dropdown-item" href="shoppage.html">Կիսաճտքավոր սպորտային</a>
+         <a class="dropdown-item" href="shoppage.html">Երկարաճիտք</a>
+
+       </div>
+     </div>
+     <div class="dropdown   col-lg-3  col-xl-4  w-100  " >
+       <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Տղամարդու կոշիկ
+       </a>
+       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+         <a class="dropdown-item" href="#">Ամառային դասական</a>
+         <a class="dropdown-item" href="#">Ամառային սպորտային</a>
+         <a class="dropdown-item" href="#">Դասական կոշիկ</a>
+         <a class="dropdown-item" href="#">Չարոխ</a>
+         <a class="dropdown-item" href="#">Սպորտային</a>
+         <a class="dropdown-item" href="#">Կիսաճտքավոր դասական</a>
+         <a class="dropdown-item" href="#">Կիսաճտքավոր սպորտային</a>
+       </div>
+     </div>
+     <div class="dropdown    col-lg-3 col-xl-4  w-100   " >
+      <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Մանկական կոշիկ
+       </a>
+       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+         <a class="dropdown-item" href="#">Մանկական</a>
+<!--          <a class="dropdown-item" href="#">SubCategory 2</a>
+         <a class="dropdown-item" href="#">SubCategory 3</a> -->
+       </div>
+     </div>
+     <div class="dropdown   col-lg-3 col-xl-4  w-100   " >
+        <a class="nav-link dropdown-toggle  text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Պայուսակներ
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+       <a class="dropdown-item" href="#">Տղամարդու պայուսակներ</a>
+       <a class="dropdown-item" href="#">Կանացի պայուսակներ</a>
+       <a class="dropdown-item" href="#">Մանկական պայուսակներ</a>
+     </div>
+   </div>
+   <div class="dropdown  col-lg-3 col-xl-4  w-100 "  >
+      <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Աքսեսուարներ
+    </a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+     <a class="dropdown-item" href="#">Դրամապանակ</a>
+     <a class="dropdown-item" href="#">Անձնագրի պատյան</a>
+     <a class="dropdown-item" href="#">Հեռախոսի պատյան</a>
+   </div>
+ </div>  
+
+
+</nav>
+
+</div>
+
+
+
+<!--  div main div div -->
+
+<div class="row " style="padding-top: 15px;">
+
+
+ <div class="   col-6 col-lg-8 ">
+  <nav aria-label="breadcrumb " class="">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Library</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+  </nav>
+</div>
+
+
+<div class="col-2" style="padding-top: 10px;">
+  <p>Sort By</p>
+</div>
+
+
+
+
+<div class="col-lg-2 col-3 " style="padding-top: 5px;">
+ <select class="custom-select">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+</div>
+
+
+
+<div class="col-lg-4 d-none d-lg-block   bg-light" style="border:2px solid #6c757d;">
+ <p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample1">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample2">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample3">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample4">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample5">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample6">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample7">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample8">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample9">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample10">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+<p>
+  <a class="btn text-primary" data-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+<div class="collapse" id="collapseExample11">
+  <div class="card card-body border-0 " style="background: none;">
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+    <div class="custom-control custom-checkbox  ">
+      <input type="checkbox" class="custom-control-input " id="customCheck1">
+      <label class="custom-control-label text-dark" for="customCheck1">Ամառային դասական</label>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+    <div class=" col-lg-8 bg-light  col-12 " style="border-top:2px solid #6c757d;border-bottom: 2px solid #6c757d;border-right:2px solid #6c757d;">
+      <div class=" d-lg-flex  text-danger">
+
+   <div class="col-lg  " style="padding-top: 20px;">
+      <img src="img/cardimg.jpg" class="col-lg-12 img-fluid" alt="Responsive image" >
+    </div>
+
+    <div class="col-lg   ">
+    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+    <div class="  d-lg-flex" style="margin-right: auto;">
+      <ul class="d-none d-lg-block col-7" style="padding-top: 10px;">
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+
+      </ul>
+      <div class=" d-flex justify-content-center  col-auto    ">
+      <div class=" col" >
+        <p  class=" text-dark d-flex justify-content-center" style="font-size: 25px;">100$</p>
+           <a href="#" class="btn btn-primary col-12">Add to Cart</a>
+      </div>
+      </div>
+    </div>
+    </div>
+ </div>
+    <div class=" d-lg-flex  text-danger">
+
+   <div class="col-lg  " style="padding-top: 20px;">
+      <img src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/72634812_458187318116317_2797103322347276233_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=5LGilf_FOzsAX9rdT3y&oh=6162dbbc7870b66586e5fa49a4aa939d&oe=5F115070" class="col-lg-12 img-fluid" alt="Responsive image"style="">
+    </div>
+
+    <div class="col-lg   ">
+    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+    <div class="  d-lg-flex" style="margin-right: auto;">
+      <ul class="d-none d-lg-block col-7" style="padding-top: 10px;">
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+
+      </ul>
+      <div class=" d-flex justify-content-center  col-auto    ">
+      <div class=" col" >
+        <p  class=" text-dark d-flex justify-content-center" style="font-size: 25px;">100$</p>
+           <a href="#" class="btn btn-primary col-12">Add to Cart</a>
+      </div>
+      </div>
+    </div>
+    </div>
+ </div>
+    <div class=" d-lg-flex  text-danger">
+
+   <div class="col-lg  " style="padding-top: 20px;">
+      <img src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/67974154_3289005917783939_2928764061949524076_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=QoUUpGxEiFkAX_cXHKR&oh=13ddda9b5886728aee14aaaae2980de5&oe=5F12FA5B" class="col-lg-12 img-fluid" alt="Responsive image" style="">
+    </div>
+
+    <div class="col-lg   ">
+    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+    <div class="  d-lg-flex" style="margin-right: auto;">
+      <ul class="d-none d-lg-block col-7" style="padding-top: 10px;">
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+
+      </ul>
+      <div class=" d-flex justify-content-center  col-auto    ">
+      <div class=" col" >
+        <p  class=" text-dark d-flex justify-content-center" style="font-size: 25px;">100$</p>
+           <a href="#" class="btn btn-primary col-12">Add to Cart</a>
+      </div>
+      </div>
+    </div>
+    </div>
+ </div>
+    <div class=" d-lg-flex  text-danger">
+
+   <div class="col-lg  " style="padding-top: 20px;">
+      <img src="https://scontent.fevn4-1.fna.fbcdn.net/v/t1.0-9/s960x960/79344451_2425423731043126_560519912464842752_o.jpg?_nc_cat=109&_nc_sid=9e2e56&_nc_ohc=LdXG1yjUQ4UAX8jRamZ&_nc_ht=scontent.fevn4-1.fna&_nc_tp=7&oh=bed931a5fcd7ed5f0a6b435867d7be49&oe=5F0FD632" class="col-lg-12 img-fluid" alt="Responsive image">
+    </div>
+
+    <div class="col-lg   ">
+    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+    <div class="  d-lg-flex" style="margin-right: auto;">
+      <ul class="d-none d-lg-block col-7" style="padding-top: 10px;">
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+
+      </ul>
+      <div class=" d-flex justify-content-center  col-auto    ">
+      <div class=" col" >
+        <p  class=" text-dark d-flex justify-content-center" style="font-size: 25px;">100$</p>
+           <a href="#" class="btn btn-primary col-12">Add to Cart</a>
+      </div>
+      </div>
+    </div>
+    </div>
+ </div>
+    <div class=" d-lg-flex  text-danger">
+
+   <div class="col-lg  " style="padding-top: 20px;">
+      <img src="https://scontent-bos3-1.cdninstagram.com/v/t51.2885-15/e35/72235759_151419139426964_9070633404294458643_n.jpg?_nc_ht=scontent-bos3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=HBy5oAyJqUoAX9z5m7r&oh=10bcf672c150cc74d14fc999ea62e479&oe=5F12B6AC" class="col-lg-12 img-fluid" alt="Responsive image">
+    </div>
+
+    <div class="col-lg   ">
+    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+    <div class="  d-lg-flex" style="margin-right: auto;">
+      <ul class="d-none d-lg-block col-7" style="padding-top: 10px;">
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+
+      </ul>
+      <div class=" d-flex justify-content-center  col-auto    ">
+      <div class=" col" >
+        <p  class=" text-dark d-flex justify-content-center" style="font-size: 25px;">100$</p>
+           <a href="#" class="btn btn-primary col-12">Add to Cart</a>
+      </div>
+      </div>
+    </div>
+    </div>
+ </div>
+    <div class=" d-lg-flex  text-danger">
+
+   <div class="col-lg  " style="padding-top: 20px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSkQ6RQw6YTByHWJYQniPtSnb28uB93YryLesXGFDiOFn1cReWr&usqp=CAU" class="col-lg-12 img-fluid" alt="Responsive image">
+    </div>
+
+    <div class="col-lg   ">
+    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+    <div class="  d-lg-flex" style="margin-right: auto;">
+      <ul class="d-none d-lg-block col-7" style="padding-top: 10px;">
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+
+      </ul>
+      <div class=" d-flex justify-content-center  col-auto    ">
+      <div class=" col" >
+        <p  class=" text-dark d-flex justify-content-center" style="font-size: 25px;">100$</p>
+           <a href="#" class="btn btn-primary col-12">Add to Cart</a>
+      </div>
+      </div>
+    </div>
+    </div>
+ </div>
+    <div class=" d-lg-flex  text-danger">
+
+   <div class="col-lg  " style="padding-top: 20px;">
+      <img src="https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.23.1440.1440a/s640x640/85089448_139598847528354_6250842755479968522_n.jpg?_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=106&_nc_ohc=eirojy2ohi8AX-fJRcr&oh=87a44de059a7637d53fc5f210873c619&oe=5F129330" class="col-lg-12 img-fluid" alt="Responsive image">
+    </div>
+
+    <div class="col-lg   ">
+    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+    <div class="  d-lg-flex" style="margin-right: auto;">
+      <ul class="d-none d-lg-block col-7" style="padding-top: 10px;">
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+        <li>asasasasasasasassasa</li>
+
+      </ul>
+      <div class=" d-flex justify-content-center  col-auto    ">
+      <div class=" col" >
+        <p  class=" text-dark d-flex justify-content-center" style="font-size: 25px;">100$</p>
+           <a href="#" class="btn btn-primary col-12">Add to Cart</a>
+      </div>
+      </div>
+    </div>
+    </div>
+ </div> 
+
+
+   
+  
+   </div>
+
+
+
+
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row   ">
+
+  <div class="col-lg-3 col-12 border border-danger p-2 bg-dark">
+    <li class="nav-item navbar-nav  ">
+      <a class="nav-link  font-italic font-weight-bold d-flex justify-content-center" href="#">CONTACT US</a>
+    </li>
+  </div>
+
+  <div class="col-lg-3 col-12 border border-danger p-2 bg-dark">
+    <li class="nav-item navbar-nav ">
+      <a class="nav-link  font-italic font-weight-bold d-flex justify-content-center" href="#">LIVE CHAT</a>
+    </li>
+  </div>
+
+  <div class="col-lg-3 col-12 border border-danger p-2 bg-dark">
+   <li class="nav-item navbar-nav">
+    <a class="nav-link  font-italic font-weight-bold d-flex justify-content-center" href="#">SHIPPING</a>
+  </li>
+</div>
+
+<div class="col-lg-3 col-12 navbar-nav border border-danger p-2 bg-dark">
+  <li class="nav-item ">
+    <a class="nav-link  font-italic font-weight-bold d-flex justify-content-center " href="#">TERM & CONDITIONS</a>
+  </li>
+</div>
+
+</div>
+
+<div class="row d-none d-lg-flex">
+
+
+  <div class="col-sm border border-danger bg-dark">
+    <ul  class="navbar-nav ">
+      <li class="nav-item font-italic font-weight-bold h6 ">
+        <a class="nav-link text-info" href="#">LINK GROUP 1</a>
+      </li>
+      <li class="nav-item font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 1</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info " href="#">Link 2</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 3</a>
+      </li>
+    </ul> 
+  </div>
+
+  <div class="col-sm border border-danger bg-dark">
+    <ul  class="navbar-nav ">
+      <li class="nav-item font-italic font-weight-bold h6 ">
+        <a class="nav-link text-info" href="#">LINK GROUP 2</a>
+      </li>
+      <li class="nav-item font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 1</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info " href="#">Link 2</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 3</a>
+      </li>
+    </ul> 
+  </div>
+
+  <div class="col-sm border border-danger bg-dark">
+    <ul  class="navbar-nav ">
+      <li class="nav-item font-italic font-weight-bold h6 ">
+        <a class="nav-link text-info" href="#">LINK GROUP 3</a>
+      </li>
+      <li class="nav-item font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 1</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info " href="#">Link 2</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 3</a>
+      </li>
+    </ul> 
+  </div>
+
+
+  <div class="col-sm border border-danger bg-dark">
+    <ul  class="navbar-nav ">
+      <li class="nav-item font-italic font-weight-bold h6 ">
+        <a class="nav-link text-info" href="#">LINK GROUP 4</a>
+      </li>
+      <li class="nav-item font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 1</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info " href="#">Link 2</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 3</a>
+      </li>
+    </ul> 
+  </div>
+
+  <div class="col-sm border border-danger bg-dark">
+    <ul  class="navbar-nav ">
+      <li class="nav-item font-italic font-weight-bold h6 ">
+        <a class="nav-link text-info" href="#">LINK GROUP 5</a>
+      </li>
+      <li class="nav-item font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 1</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info " href="#">Link 2</a>
+      </li>
+      <li class="nav-item navbar-nav font-italic  h7 ">
+        <a class="nav-link text-info" href="#">Link 3</a>
+      </li>
+    </ul> 
+  </div>
+
+
+</div>
+
+<div class="row bg-dark align-items-center border border-danger ">
+
+  <div class="col-lg-2 text-danger d-none d-lg-block " >
+    find us on:
+  </div>
+
+  <div class="col-lg-3 col-12 d-flex justify-content-center justify-content-lg-start ">
+    <a href="#"><img src="img/facebook.png" style="height: 25px; width: 25px;"></a>
+    <a href="#"><img src="img/instagram-sketched.png" style="height: 25px; width: 25px; margin-left: 10px;"></a>
+    <a href="#"><img src="img/twitter.png" style="height: 25px; width: 25px; margin-left: 10px;"></a>
+    <a href="#"><img src="img/youtube.png " style="height: 25px; width: 25px; margin-left: 10px;"></a>
+  </div>
+
+  <div class=" col-12 col-lg-5  d-flex justify-content-center justify-content-lg-end">
+    <div class=" text-danger    ">
+      &#169  Narek Shahbazyan :) Shahbazyans Brand  
+    </div>
+  </div>
+
+  <div class="col-lg-2 col-12 d-flex justify-content-center justify-content-lg-end ">
+    <img src="img/icons8-love-96.png" style="height: 75px;">
+
+  </div>
+
+</div>
+
+
+
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1 "><p class="text-dark">Email address</p></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted  ">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1 "><p class="text-dark">Password</p></label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary d-flex justify-content-center">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="registModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+           <input type="text" class="form-control" placeholder="First name">
+         </div>
+         <div class="form-group">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+        <div class="d-flex justify-content-center" >
+          <div class="form-check col ">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1"><p class="text-dark">Men </p></label>
+          </div>
+          <div class="form-check  col">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2"><p class="text-dark">Women</p></label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Example select</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary col-12">Submit</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!--  div container div -->
+</div>
+</section>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

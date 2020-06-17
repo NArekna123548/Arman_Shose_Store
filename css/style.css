@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sel{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: linear-gradient(-55deg,  #ffc107 , #17a2b8,   #dc3545, #ffc107 , #17a2b8,   #dc3545 ,#17a2b8, #01bf01 , #01bf01);
+    background-size: 800% 800%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+.im{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 10rem;
+}
+
+
+@keyframes change{
+    0%{
+        background-position: 0 50% ;
+     } 
+     50%{
+      background-position: 100% 50% ;
+} 
+       100%{
+       background-position: 0 50% ;
+       } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
