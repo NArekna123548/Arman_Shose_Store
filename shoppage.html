@@ -188,7 +188,7 @@
 
 
 
-<div class="col-lg-4 d-none d-lg-block   bg-light" style="border:2px solid #6c757d;">
+<div class="col-lg-4  d-none d-lg-block   bg-light" style="border:2px solid #6c757d;">
  <p>
   <a class="btn text-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
     Link with href
@@ -376,7 +376,7 @@
     <div class=" d-lg-flex  text-danger">
 
    <div class="col-lg  " style="padding-top: 20px;">
-      <img src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/72634812_458187318116317_2797103322347276233_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=5LGilf_FOzsAX9rdT3y&oh=6162dbbc7870b66586e5fa49a4aa939d&oe=5F115070" class="col-lg-12 img-fluid" alt="Responsive image"style="">
+      <img src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/72634812_458187318116317_2797103322347276233_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=5LGilf_FOzsAX9rdT3y&oh=6162dbbc7870b66586e5fa49a4aa939d&oe=5F115070" class="col-lg-12 img-fluid" alt="Responsive image"style="height: 300px;">
     </div>
 
     <div class="col-lg   ">
@@ -401,7 +401,7 @@
     <div class=" d-lg-flex  text-danger">
 
    <div class="col-lg  " style="padding-top: 20px;">
-      <img src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/67974154_3289005917783939_2928764061949524076_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=QoUUpGxEiFkAX_cXHKR&oh=13ddda9b5886728aee14aaaae2980de5&oe=5F12FA5B" class="col-lg-12 img-fluid" alt="Responsive image" style="">
+      <img src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/67974154_3289005917783939_2928764061949524076_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=QoUUpGxEiFkAX_cXHKR&oh=13ddda9b5886728aee14aaaae2980de5&oe=5F12FA5B" class="col-lg-12 img-fluid" alt="Responsive image" style="height: 300px;">
     </div>
 
     <div class="col-lg   ">
@@ -698,78 +698,96 @@
 
 
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="ModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1 "><p class="text-dark">Email address</p></label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted  ">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1 "><p class="text-dark">Password</p></label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <button type="submit" class="btn btn-primary d-flex justify-content-center">Submit</button>
-        </form>
+     <div class="modal-dialog">
+      <div class="modal-content">
+        <a href="#" class=" d-flex justify-content-center" data-dismiss="modal" style="padding-top:10px;">
+            <svg class="bi bi-x-circle-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.146-3.146a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+            </svg>
+          </a>
+        <div class="modal-body">
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.0/css/hover-min.css">
+
+          <section id="section-one">
+            <div class="login-modal">
+              <div class="close-btn">
+                <a href="#">&times;</a>
+              </div>
+              <h1>Login</h1>
+              <form method="POST" action="/api/user/login">
+                <input type="text" name="email" placeholder="Your email" required>
+                <input type="password" name="password" placeholder="Your password" required>
+              </form>
+              <a href="#" class="forgot-password">Forgot password ?</a>
+              <input type="submit" name="login" value="Login">
+
+
+
+              <span class="login-modal-text d-none d-sm-block">or Login in with</span>
+
+              <div class="login-with d-none d-sm-block">
+                <button type="button" class="login-with-btn"><i class="fa fa-facebook"></i></button>
+                <button type="button" class="login-with-btn"><i class="fa fa-twitter"></i></button>
+                <button type="button" class="login-with-btn"><i class="fa fa-google"></i></button>
+                <div class="login-modal-footer">
+                  <span>Not a member ? <a href="#">
+                </div>
+              </div>
+
+
+            </div>
+          </section>
+              <a href="#" class=" d-flex justify-content-center" data-dismiss="modal">Close</a>
+        </div>
+
       </div>
     </div>
   </div>
-</div>
 
 
 
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="registModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="registModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class=" d-flex justify-content-center" data-dismiss="modal" style="padding-top:10px;">
+            <svg class="bi bi-x-circle-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.146-3.146a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>
+            </svg>
+          </a>
+          <div class="modal-body">
+            <section id="section-two">
+              <div class="login-modal">
+                <div class="close-btn">
+                  <a href="#">&times;</a>
+                </div>
+                <h1>Sing up</h1>
+                <form action="/api/user/register" method="POST">
+                  <!-- First Name -->
+                  <input type="text" name="first_name" class="username-input" placeholder="Firstname" required>
+                  <!-- Last Name -->
+                  <input type="text" name="last_name" class="lastname-input" placeholder="Lastname" required>
+                  <!-- Email -->
+                  <input type="email" name="email" class="email-input" placeholder="Email" required>
+                  <!-- Password -->
+                  <input type="password" name="password" class="password-input" placeholder="Password" required>
+                  <!-- Confirm Password -->
+                  <input type="password" name="password2" class="password-input" placeholder="Confirm password" required>
+                </form>
+
+
+                <a href="#" class="sign-up col-6 ">Sing up</a>
+
+
+
+
+              </div>
+            </section>
+            <a href="#" class=" d-flex justify-content-center" data-dismiss="modal">Close</a>
+          </div>
+
+        </div>
       </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-           <input type="text" class="form-control" placeholder="First name">
-         </div>
-         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Last name">
-        </div>
-        <div class="d-flex justify-content-center" >
-          <div class="form-check col ">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1"><p class="text-dark">Men </p></label>
-          </div>
-          <div class="form-check  col">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2"><p class="text-dark">Women</p></label>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <button type="submit" class="btn btn-primary col-12">Submit</button>
-      </form>
-    </div>
-
-  </div>
-</div>
 </div>
 
 <!--  div container div -->

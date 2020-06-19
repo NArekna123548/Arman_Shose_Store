@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <!-- script js -->
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+       <script type="text/javascript " src="https://code.jquery.com/jquery-3.4.1.min.js"></script>  
+       <script type="text/javascript " src="js/script.js" ></script>
+         <!-- CSS css -->
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- Bootstrap CSS -->
+ 
+
+    <title>My Account</title>
+  </head>
+  <body>
+ <aside class="side-nav" id="show-side-navigation1">
+  <i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
+  <div class="heading">
+    <img src="https://img.icons8.com/fluent/48/000000/guest-male.png" alt="">
+    <div class="info">
+      <h3><a href="#">Narek Shahbazyan</a></h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+  </div>
+  <div class="search">
+    <input type="text" placeholder="Type here"><i class="fa fa-search"></i>
+  </div>
+  <ul class="categories"> 
+    <li><i class="fa fa-home fa-fw" aria-hidden="true"></i><a href="#"> About us</a>
+      <ul class="side-nav-dropdown">
+        <li><a href="#">Lorem ipsum</a></li>
+        <li><a href="#">ipsum dolor</a></li>
+        <li><a href="#">dolor ipsum</a></li>
+        <li><a href="#">amet consectetur</a></li>
+        <li><a href="#">ipsum dolor sit</a></li>
+      </ul>
+    </li>
+    <li><i class="fa fa-support fa-fw"></i><a href="#"> Subscribe us</a>
+      <ul class="side-nav-dropdown">
+        <li><a href="#">Lorem ipsum</a></li>
+        <li><a href="#">ipsum dolor</a></li>
+        <li><a href="#">dolor ipsum</a></li>
+        <li><a href="#">amet consectetur</a></li>
+        <li><a href="#">ipsum dolor sit</a></li>
+      </ul>
+    </li>
+    <li><i class="fa fa-envelope fa-fw"></i><a href="#"> Contact us</a>
+      <ul class="side-nav-dropdown">
+        <li><a href="#">Lorem ipsum</a></li>
+        <li><a href="#">ipsum dolor</a></li>
+        <li><a href="#">dolor ipsum</a></li>
+        <li><a href="#">amet consectetur</a></li>
+        <li><a href="#">ipsum dolor sit</a></li>
+      </ul>
+    </li>
+    <li><i class="fa fa-users fa-fw"></i><a href="#"> Our team</a>
+      <ul class="side-nav-dropdown">
+        <li><a href="#">Lorem ipsum</a></li>
+        <li><a href="#">ipsum dolor</a></li>
+        <li><a href="#">dolor ipsum</a></li>
+        <li><a href="#">amet consectetur</a></li>
+        <li><a href="#">ipsum dolor sit</a></li>
+      </ul>
+    </li>
+    
+    <p>Example:</p>
+    <li><i class="fa fa-envelope-open-o fa-fw"></i><a href="#"> Messages <span class="num dang">56</span></a></li>
+    <li><i class="fa fa-wrench fa-fw"></i><a href="#"> Settings <span class="num prim">6</span></a>
+      <ul class="side-nav-dropdown">
+        <li><a href="#">Lorem ipsum</a></li>
+        <li><a href="#">ipsum dolor</a></li>
+        <li><a href="#">dolor ipsum</a></li>
+        <li><a href="#">amet consectetur</a></li>
+        <li><a href="#">ipsum dolor sit</a></li>
+      </ul>
+    </li>
+    <li><i class="fa fa-laptop fa-fw"></i><a href="#"> About UI &amp; UX <span class="num succ">43</span></a></li>
+    <li><i class="fa fa-comments-o fa-fw"></i><a href="#"> Something else</a></li>
+  </ul>
+</aside>
+<section id="contents">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <i class="fa fa-align-right"></i>
+        </button>
+        <a class="navbar-brand" href="index.html">Home <span class="main-color">MyDashboard</span></a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My profile <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"><i class="fa fa-user-o fw"></i> My account</a></li>
+              <li><a href="#"><i class="fa fa-envelope-o fw"></i> My inbox</a></li>
+              <li><a href="#"><i class="fa fa-question-circle-o fw"></i> Help</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#"><i class="fa fa-sign-out"></i> Log out</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-comments"></i><span>23</span></a></li>
+          <li><a href="#"><i class="fa fa-bell-o"></i><span>98</span></a></li>
+          <li><a href="#"><i data-show="show-side-navigation1" class="fa fa-bars show-side-btn"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="welcome">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="content">
+            <h2 class="hh2">My Orders</h2>
+
+            <div class="col-auto open-orders-wrap">
+              <div class="col-auto open-orders-logo">
+
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAnCAYAAACbgcH8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo3NEUzNkM5MTA3MjA2ODExODIyQUMwNEI5MjRDMjgyQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozODMxQjNCM0Q2QjUxMUU0ODc4NUJFNkFBRTVDM0IzMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozODMxQjNCMkQ2QjUxMUU0ODc4NUJFNkFBRTVDM0IzMSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NzRFMzZDOTEwNzIwNjgxMTgyMkFDMDRCOTI0QzI4MkIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NzRFMzZDOTEwNzIwNjgxMTgyMkFDMDRCOTI0QzI4MkIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz60sLB6AAAD40lEQVR42sxYW0hVQRQ9Xo+aqWUP04iwNxSUGpRKFJXVR1TiRy+joiLro6Dv3gRRRD9RfRQ9lD7664FFGlkaRWFEJVEQhVZKFNlDMi0ft71pnRimmXvm3Hu9xw1L75k5Z8+amT37MXElJSVplmUdJ6wlBCy9/CAcJBy2fBYmeYKw3oUwSyrhEGFlfyDtlcRyH3iOJuQQkh3S3z0qyI4x4QOE14SnhIeEvAAaez0oySSkxIjwMsIeQiKepxHKbfpzkvAS2z5AmMBvwhzCFElRBmEroZUQ34eEOwgbFe1Tbfy4DciyEx5DFJ7YUR/PYaubx2iy+p/U2S4vvNe0XwaShbZfhFzCDjzXECqEd4LALsIYQjthLxyBbGY/CesICxVjX3cj/QG2nSi1vyNcULzfLJBu0LyzGaQ7MalWzdgqe+YJ1rqZx2fCV0X7OINtjPPYLspYQr6i/Qmh0W2lvxE+ws2JMo9QLxFgr5MuPK8mFCq2fjL+87u3CF0KPYMJAxV8+H3LNph1C/yjHNJnGPjzzBD98TgDXqTGlPTbEKbTIzzzIUsiDBEOU5vCHIZh3CB09CrMJ0Px3RvCM1PSOrdXyodC2Eb2BosJV/FcTthGGCRMignWEabD9PJhfgmCjkXsIRTj3UXAiWil02GPYu7SLrnAoCK36RFstw07IkqhZrxq54cJaZ2vnosJpQhhN1fKzGYK/Y6fTsMzr+5suDzHXHhCSxVj8eTu/7MfKgLcSLN7ewF79UvuEOaL+bSb8GH54nPovik+mJhHGw7LSDlxwWHrxUln+54gFAmPCVXSDgVR1mUhIp7FOQjg+1JNvl7jlbQTnmWfyoPuR+3oSJFAmk/7bs1ZyALZfUIYTwVpWV45rs6LeTi5hizDCSOiaAIFmlWuRf7jeaUbFW287adg8xzdugmjhP4liIgJknmMx2/2IuewY92KYuM/V+eVtM5XLwjxzURAJ4kop9xynweqatzUpv2QeqTHYZFukaJdrKRad+9hehCrY10LEi6pOmwPSspw6Irgl4N9QDQOC9mEsqwpUtI88y34JtCHKxxEoNGKHYbSbr/LcTuC73IQDJpRu3V51JGEvDoLcaDB9KYrHNKTEBRmCW2PUD0/N9TBKesZvi2S6r9NmugblvdwZCihUiJsoV68pkiqdKlupUTYCVRXLIN7Qq+kN2ClVZKNOw032R4iZ8kjrIo26YII+x3TiEiHV9KdLv0dUdDRGW3SN1z6qwx0VEWqwyvpi9bfi0fdYOcNdPB9+D1NX4Xm+iAi0hyt1hCOCBUH3/UdI6wwDDx8ZVBMOI1SjuUTqqAyExJ/BBgA1DDYQDVdxjAAAAAASUVORK5CYII="/>
+              </div>
+              <div class="col-auto open-orders-content">
+    <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Due</th>
+          <th>Overdue</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Click & Collect</td>
+          <td>5</td>
+          <td>1</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Express</td>
+          <td>5</td>
+          <td>1</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Standard</td>
+          <td>5</td>
+          <td>1</td>
+          <td>6</td>
+        </tr>
+      </tbody>
+    </table>
+      <div class="btnn">
+    <a class="btns">See All</a>
+     </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <section class="admins">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box">
+            <h3 class="hh3">Recent Activity</h3>
+            <div class="admin">
+              <div class="img">
+                <img class="img-responsive" src="img/cardimg.jpg " alt="admin" style="height: 150px:width:150px;">
+              </div>
+              <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                  <h5 class="hh5">In Stock</h5>
+                 <button type="button" class="btn btns">Add to Cart</button> 
+              </div>
+            </div>
+            <div class="admin">
+              <div class="img">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSkQ6RQw6YTByHWJYQniPtSnb28uB93YryLesXGFDiOFn1cReWr&usqp=CAU" alt="admin" style="height: 150px:width:150px;">
+              </div>
+              <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                 <button type="button" class="btn btns">Add to Cart</button> 
+              </div>
+            </div>
+            <div class="admin">
+              <div class="img">
+                <img class="img-responsive" src="https://scontent-bos3-1.cdninstagram.com/v/t51.2885-15/e35/72235759_151419139426964_9070633404294458643_n.jpg?_nc_ht=scontent-bos3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=HBy5oAyJqUoAX9z5m7r&oh=10bcf672c150cc74d14fc999ea62e479&oe=5F12B6AC" alt="admin" style="height: 150px:width:150px;">
+              </div>
+              <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                 <button type="button" class="btn btns">Add to Cart</button> 
+              </div>
+            </div>
+           <!--  <div class="admin">
+              <div class="img">
+                <img class="img-responsive" src="" alt="admin"  style="height: 150px:width:150px;">
+              </div>
+              <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                 <button type="button" class="btn btns">Add to Cart</button> 
+              </div>
+            </div>
+            <div class="admin">
+              <div class="img">
+                <img class="img-responsive" src="" alt="admin" style="height: 150px:width:150px;">
+              </div>
+              <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                 <button type="button" class="btn btns">Add to Cart</button> 
+              </div>
+            </div> -->
+          </div>
+        </div>
+      
+      </section>
+  <section class="statistics">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <i class="fa fa-envelope fa-fw bg-primary"></i>
+            <div class="info">
+              <h3>1,245</h3> <span>Emails</span>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <i class="fa fa-file fa-fw danger"></i>
+            <div class="info">
+              <h3>34</h3> <span>Projects</span>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <i class="fa fa-users fa-fw success"></i>
+            <div class="info">
+              <h3>5,245</h3> <span>Users</span>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="charts">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="chart-container">
+            <h3>Chart</h3>
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="chart-container">
+            <h3>Chart2</h3>
+            <canvas id="myChart2"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+    <section class='statis text-center'>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box bg-primary">
+              <i class="fa fa-eye"></i>
+              <h3>5,154</h3>
+              <p class="lead">Page views</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box danger">
+              <i class="fa fa-user-o"></i>
+              <h3>245</h3>
+              <p class="lead">User registered</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box warning">
+              <i class="fa fa-shopping-cart"></i>
+              <h3>5,154</h3>
+              <p class="lead">Product sales</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box success">
+              <i class="fa fa-handshake-o"></i>
+              <h3>5,154</h3>
+              <p class="lead">Transactions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="chrt3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="chart-container">
+              <canvas id="chart3" width="100%"></canvas>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 
+  </body>
+</html>
