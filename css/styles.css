@@ -464,7 +464,7 @@
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color: transparent !important}
   }
 
-  
+
 .hh5{
   color: #888888;
 }
@@ -507,6 +507,16 @@
 }
 .btnn{
   display: flex;justify-content: center;
+}
+.btnnns{
+display: flex;justify-content: flex-end;
+}
+.ateg{
+  display: flex;justify-content: center;
+  font-size: 12px;
+}
+.nuyn{
+  margin: 15px; 
 }
 
 
