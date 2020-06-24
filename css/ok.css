@@ -1,0 +1,89 @@
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.forminformat{
+  color: #6C7A89;
+  font-size: 35px;
+  display: flex;justify-content: center;
+}
+.drk{
+  margin-left: 20px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.continue:hover{
+   text-decoration: none;
+  opacity: 0.6;
+  transition: 0.5s;
+  background: #f69679;  
+}
+
+.continue{
+
+     text-decoration: none;
+      font-family: $fontSans;
+      font-size: .85em;
+      padding: 1em;
+      margin-top: 20px;
+      color: #fff;
+      background: #82ca9c;
+      font-weight: bold;
+      border-radius: 50px;
+    float: right;
+      text-align: right;
+      transition: width 2s, height 4s;
+}
+.pp{
+  margin:0;
+  padding: 0;
+}
+
+.itemImg {
+ width: 4em;
+ float: left;
+}
+.stockStatuss{
+            color: #F69679;
+          font-weight: bold;
+         padding-top: 22px;
+          text-transform: uppercase;
+}
+.stockStatus{
+            color: #82CA9C;
+          font-weight: bold;
+         padding-top: 22px;
+          text-transform: uppercase;
+}
+.qtyWrap .prodTotal {
+        text-align: center;
+ {
+      font-weight: bold;
+      font-size: 1.25em;
+    }
+       
+      }
+      
+    input.qty {
+        width: 2em;
+        text-align: center;
+        font-size: 1em;
+          padding: .25em;
+      margin: 1em .5em 0 0;
+ }
+
+ .ptxt{
+  font-size: 35px;
+  margin-top: 15px;
+  border-bottom: 0.9px solid  #dadada;
+  border-top: 0.9px solid #dadada; 
+ }
